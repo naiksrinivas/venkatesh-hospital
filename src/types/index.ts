@@ -9,6 +9,47 @@ export interface Doctor {
     hours: string;
   };
   bio: string;
+  areasOfExpertise: string[];
+  education: {
+    institution: string;
+    degree: string;
+  }[];
+  languages?: string[];
+  publications?: {
+    title: string;
+    journal: string;
+    year: number;
+    link?: string;
+  }[];
+  awards?: {
+    name: string;
+    year: number;
+    issuer: string;
+  }[];
+  professionalMemberships?: string[];
+  certifications?: {
+    name: string;
+    issuer: string;
+    year: number;
+    validUntil?: string;
+  }[];
+  experience?: {
+    position: string;
+    institution: string;
+    startYear: number;
+    endYear?: number;
+    current?: boolean;
+  }[];
+  contactInfo?: {
+    email?: string;
+    phone?: string;
+    office?: string;
+  };
+  specialClinicHours?: {
+    type: string;
+    days: string[];
+    hours: string;
+  }[];
 }
 
 export interface Testimonial {
