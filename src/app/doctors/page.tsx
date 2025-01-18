@@ -1,4 +1,3 @@
-import Image from "next/image";
 import DoctorCard from "@/components/DoctorCard";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
@@ -72,16 +71,6 @@ const doctors: Doctor[] = [
     ]
   },
   // Add more doctors as needed
-];
-
-const specialties = [
-  "All Specialties",
-  "Cardiology",
-  "Neurology",
-  "Orthopedics",
-  "Pediatrics",
-  "Dermatology",
-  "Oncology",
 ];
 
 export default function DoctorsPage() {

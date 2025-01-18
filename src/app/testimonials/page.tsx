@@ -162,7 +162,7 @@ export default function TestimonialsPage() {
           <div className="mt-12 bg-blue-50 rounded-lg p-8 text-center">
             <h2 className="text-2xl font-bold mb-4">Share Your Story</h2>
             <p className="text-gray-600 mb-6">
-              We'd love to hear about your experience at our hospital
+              We&apos;d love to hear about your experience at our hospital
             </p>
             <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
               Submit Your Testimonial
