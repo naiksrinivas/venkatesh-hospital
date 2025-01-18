@@ -25,16 +25,10 @@ export default function Navigation() {
               Specialties
             </Link>
             <Link 
-              href="/testimonials"
+              href="/institutes"
               className="flex items-center text-gray-800 hover:text-blue-600"
             >
-              Testimonials
-            </Link>
-            <Link 
-              href="/affiliated"
-              className="flex items-center text-gray-800 hover:text-blue-600"
-            >
-              Affiliated Hospitals
+              Institutes
             </Link>
           </div>
         </div>

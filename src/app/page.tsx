@@ -101,30 +101,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <section className="bg-blue-600 text-white py-16 px-4">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Need Medical Attention?</h2>
-          <p className="text-xl mb-8">
-            Our team of medical professionals is here to help you
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link
-              href="/schedule"
-              className="bg-white text-blue-600 px-8 py-3 rounded-full hover:bg-gray-100 transition-colors"
-            >
-              Schedule Appointment
-            </Link>
-            <Link
-              href="/doctors"
-              className="border-2 border-white text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors"
-            >
-              Find a Doctor
-            </Link>
-          </div>
-        </div>
-      </section>
       
       <Footer />
     </div>
