@@ -35,7 +35,7 @@ export default function Home() {
             <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <FaUserMd className="w-8 h-8 text-blue-600" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Expert Doctors</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">Expert Doctors</h3>
             <p className="text-gray-600">
               Our team of experienced medical professionals provides the highest quality care
             </p>
@@ -44,7 +44,7 @@ export default function Home() {
             <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <FaMicroscope className="w-8 h-8 text-blue-600" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Modern Technology</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">Modern Technology</h3>
             <p className="text-gray-600">
               State-of-the-art facilities and equipment for accurate diagnosis and treatment
             </p>
@@ -53,7 +53,7 @@ export default function Home() {
             <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <FaClock className="w-8 h-8 text-blue-600" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">24/7 Care</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">24/7 Care</h3>
             <p className="text-gray-600">
               Round-the-clock emergency services and patient care
             </p>
@@ -64,7 +64,7 @@ export default function Home() {
       {/* Featured Specialties */}
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Specialties</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Our Specialties</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {['Cardiology', 'Neurology', 'Orthopedics', 'Pediatrics'].map((specialty) => (
               <Link
@@ -72,7 +72,7 @@ export default function Home() {
                 href={`/specialties#${specialty.toLowerCase()}`}
                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
               >
-                <h3 className="text-xl font-semibold mb-2">{specialty}</h3>
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">{specialty}</h3>
                 <p className="text-gray-600">
                   Learn more about our {specialty.toLowerCase()} department →
                 </p>

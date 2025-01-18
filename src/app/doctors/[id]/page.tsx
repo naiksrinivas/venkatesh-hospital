@@ -80,13 +80,13 @@ export default async function DoctorPage({ params }: { params: Promise<{ id: str
             </div>
 
             <div className="md:col-span-2">
-              <h1 className="text-3xl font-bold mb-2">{doctor.name}</h1>
+              <h1 className="text-3xl font-bold mb-2 text-gray-900">{doctor.name}</h1>
               <p className="text-xl text-gray-600 mb-4">{doctor.specialty}</p>
 
               <p className="text-gray-700 mb-6">{doctor.description}</p>
 
               <div className="mb-8">
-                <h2 className="text-xl font-semibold mb-4">Certifications</h2>
+                <h2 className="text-xl font-semibold mb-4 text-gray-900">Certifications</h2>
                 <ul className="list-disc list-inside space-y-2 text-gray-700">
                   {doctor.certifications.map((cert, index) => (
                     <li key={index}>{cert}</li>

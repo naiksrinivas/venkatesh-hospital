@@ -76,7 +76,7 @@ export default async function SpecialtyPage({ params }: { params: Promise<{ id: 
           {/* Specialty Header */}
           <div className="text-center mb-12">
             <div className="text-4xl mb-4">{specialty.icon}</div>
-            <h1 className="text-4xl font-bold mb-4">{specialty.name}</h1>
+            <h1 className="text-4xl font-bold mb-4 text-gray-900">{specialty.name}</h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {specialty.description}
             </p>

@@ -31,7 +31,7 @@ export default function InstitutesPage() {
 
           {/* About Section */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6">About Our Institution</h2>
+            <h2 className="text-3xl font-bold mb-6 text-gray-900">About Our Institution</h2>
             <div className="prose max-w-none text-gray-700">
               <p className="mb-4">
                 Established in 2022, Venkatesh Nursing College has been at the forefront 
@@ -49,10 +49,10 @@ export default function InstitutesPage() {
 
           {/* Programs Section */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6">Our Programs</h2>
+            <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Programs</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white rounded-lg shadow-lg p-6">
-                <h3 className="text-xl font-semibold mb-4">B.Sc. Nursing</h3>
+                <h3 className="text-xl font-semibold mb-4 text-gray-900">B.Sc. Nursing</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• Duration: 4 Years</li>
                   <li>• Intake Capacity: [NUMBER] seats</li>
@@ -62,7 +62,7 @@ export default function InstitutesPage() {
                 </ul>
               </div>
               <div className="bg-white rounded-lg shadow-lg p-6">
-                <h3 className="text-xl font-semibold mb-4">GNM (General Nursing and Midwifery)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-gray-900">GNM (General Nursing and Midwifery)</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• Duration: 3 Years</li>
                   <li>• Intake Capacity: [NUMBER] seats</li>
@@ -76,7 +76,7 @@ export default function InstitutesPage() {
 
           {/* Facilities Section */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6">Our Facilities</h2>
+            <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Facilities</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="relative h-48">
@@ -88,7 +88,7 @@ export default function InstitutesPage() {
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="font-semibold mb-2">Modern Laboratories</h3>
+                  <h3 className="font-semibold mb-2 text-gray-900">Modern Laboratories</h3>
                   <p className="text-gray-600">
                     Well-equipped labs with latest nursing equipment and simulation facilities.
                   </p>
@@ -104,7 +104,7 @@ export default function InstitutesPage() {
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="font-semibold mb-2">Library</h3>
+                  <h3 className="font-semibold mb-2 text-gray-900">Library</h3>
                   <p className="text-gray-600">
                     Extensive collection of medical literature, journals, and digital resources.
                   </p>
@@ -120,7 +120,7 @@ export default function InstitutesPage() {
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="font-semibold mb-2">Hostel Facilities</h3>
+                  <h3 className="font-semibold mb-2 text-gray-900">Hostel Facilities</h3>
                   <p className="text-gray-600">
                     Comfortable accommodation with modern amenities for students.
                   </p>
