@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import { notFound } from "next/navigation";
+import { FaChevronLeft } from "react-icons/fa";
 
 // This would typically come from your database
 const specialties = [
@@ -26,7 +27,7 @@ const doctors = [
     id: "1",
     name: "Dr. Sarah Johnson",
     specialty: "cardiology",
-    image: "/doctors/doctor-1.jpg",
+    image: "/doctors/doctor-1.webp",
     education: "MD - Harvard Medical School",
     experience: "15+ years",
     description: "Dr. Johnson is a board-certified cardiologist specializing in preventive cardiology and cardiac rehabilitation.",
@@ -35,7 +36,7 @@ const doctors = [
     id: "2",
     name: "Dr. Michael Chen",
     specialty: "neurology",
-    image: "/doctors/doctor-2.jpg",
+    image: "/doctors/doctor-2.webp",
     education: "MD - Johns Hopkins University",
     experience: "12+ years",
     description: "Dr. Chen is a leading neurologist specializing in diagnostic neurology and treatment of complex neurological conditions.",
@@ -58,6 +59,19 @@ export default async function SpecialtyPage({ params }: { params: Promise<{ id: 
       <Navigation />
 
       <main className="flex-grow">
+        {/* Breadcrumb Navigation */}
+        <div className="bg-gray-100 border-b">
+          <div className="max-w-7xl mx-auto px-4 py-3">
+            <Link 
+              href="/specialties" 
+              className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+            >
+              <FaChevronLeft className="w-4 h-4 mr-2" />
+              Back to Specialties
+            </Link>
+          </div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 py-12">
           {/* Specialty Header */}
           <div className="text-center mb-12">

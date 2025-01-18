@@ -10,7 +10,7 @@ const doctors: Doctor[] = [
     name: "Dr. Sarah Johnson",
     specialty: "Cardiology",
     qualifications: ["MD", "FACC", "FESC"],
-    image: "/doctors/doctor-1.jpg",
+    image: "/doctors/doctor-1.webp",
     schedule: {
       days: ["Monday", "Wednesday", "Friday"],
       hours: "9:00 AM - 5:00 PM"
@@ -43,7 +43,7 @@ const doctors: Doctor[] = [
     name: "Dr. Michael Chen",
     specialty: "Neurology",
     qualifications: ["MD", "PhD"],
-    image: "/doctors/doctor-2.jpg",
+    image: "/doctors/doctor-2.webp",
     schedule: {
       days: ["Tuesday", "Thursday"],
       hours: "10:00 AM - 6:00 PM"
